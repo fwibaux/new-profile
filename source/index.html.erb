@@ -1,10 +1,26 @@
 ---
 title: Le Wagon Middleman boilerplate
 ---
-
-<div class="welcome text-center padded">
-  <h1>Welcome to Middleman FW</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p>
+<div class="row">
+  <div class="well well-lg clearfix">
+    <div class="welcome padded col-xs-12 col-md-4">
+      <h1 class="text-center">Frederic Wibaux</h1>
+      <p class="doc align-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum orci arcu, at volutpat felis fringilla sed. Maecenas dignissim eget.
+      </p>
+    </div>
+    <div class="welcome text-center padded col-xs-12 col-md-4">
+      <p class="doc">
+        <% link_to "/", class: "navbar-wagon-brand", style:"width:50%;" do %>
+          <%= image_tag "IG_20161021_MBP2009.png" %>
+        <% end %>
+      </p>
+    </div>
+    <div class="welcome text-center padded col-xs-12 col-md-4">
+      <h1>picture</h1>
+      <p class="doc">
+        <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
+      </p>
+    </div>
+  </div>
 </div>

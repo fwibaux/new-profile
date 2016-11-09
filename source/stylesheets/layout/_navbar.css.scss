@@ -8,6 +8,7 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: flex-end;
+  letter-spacing: 0.75px;
 
 }
 
@@ -18,11 +19,6 @@
   top: 0px;
   z-index: 1;
   width: 100%;
-}
-
-/* Navbar logo */
-.navbar-wagon-brand img {
-  width: 50px;
 }
 
 /* Navbar right section (with form, links, button) */
@@ -45,7 +41,7 @@
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: #011936;
   text-decoration: none;
 }
 
@@ -53,51 +49,17 @@
 .navbar-wagon-button {
   margin-left: 10px;
   padding: 0 20px;
-  border-radius: 20em;
+  border-radius: 3px;
   line-height: 40px;
-  background-color: #D23333;
+  background-color: #1B3B6F;
   color: white;
   font-size: 14px;
-  border: 2px solid #D23333;
+  border: 2px solid #1B3B6F;
 }
 .navbar-wagon-button:hover {
   color: white;
-  background: #D23333;
-  border-color: #ac2626;
-}
-
-/* Navbar search form */
-.navbar-wagon-search {
-  flex: 0 1 300px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 10px;
-  position: relative;
-}
-.navbar-wagon-search-btn {
-  line-height: 40px;
-  color: #E6E6E6;
-  border: none;
-  background: transparent;
-  position: absolute;
-  right: 14px;
-  top: -2px;
-  z-index: 1;
-}
-.navbar-wagon-search-input {
-  flex: 0 1 300px;
-  transition: all 0.15s ease;
-  line-height: 40px;
-  font-weight: lighter;
-  color: #666666;
-  border: 1px solid #E6E6E6;
-  border-radius: 5px;
-  padding: 0 10px;
-  font-size: 14px;
-  outline: none;
-}
-.navbar-wagon-search-input:focus  {
-  border: 1px solid #CCCCCC;
+  background: #011936;
+  border-color: #011936;
 }
 
 /* Navbar dropdown menu */
