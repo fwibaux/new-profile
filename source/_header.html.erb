@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="well well-lg clearfix">
+    <div class="padded col-xs-12 col-md-3 col-md-offset-1">
+      <h1 class="text-center">Hello I'm </br> Frederic Wibaux</h1>
+      <p class="align-left">
+        I'm the founder of <%= link_to "Revalue Your IT", "http://www.RevalueYourIT.com" %>, a B2B platform offering a 2nd life to IT equipment. I have strong sales skills in highly competitive markets with a passion with growth. My skills also include digital marketing, project management. And I have been recently learning web-development.
+      </p>
+    </div>
+    <div class=" text-center col-xs-12 col-md-4">
+      <p>
+        <% link_to "/", class: "navbar-wagon-brand" do %>
+          <%= image_tag "Photo_FW_Le-Wagon.png" %>
+        <% end %>
+      </p>
+    </div>
+    <div class="contact text-center padded col-xs-12 col-md-3">
+      <h1>Contact</h1>
+      <p>
+        <ul>
+          <li><i class="fa fa-phone"></i> +33 6 75 67 66 92</li>
+          <li><i class="fa fa-envelope"></i> <%= link_to "fw@fredericwibaux.com", "mailto:fw@fredericwibaux.com" %></li>
+          <li><i class="fa fa-linkedin"></i> <%= link_to "LinkedIn Profile", "https://fr.linkedin.com/in/fredericwibaux" %></li>
+          <li><i class="fa fa-twitter"></i> <%= link_to "@fwibaux", "https://twitter.com/fwibaux" %></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
