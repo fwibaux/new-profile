@@ -15,12 +15,12 @@
     <meta name="description" content="<%= current_page.data.description %>">
 
     <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="<%= current_page.data.title %>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="<%= current_page %>" />
-    <meta property="og:image" content="<%= image_tag(current_page.data.image) %>" />
-    <meta property="og:description" content="<%= current_page.data.description %>" />
-    <meta property="og:site_name" content="<%= current_page.data.title %>" />
+    <meta property="og:title" content="<%= current_page.data.title %>" >
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content='<%= current_page %>' >
+    <meta property="og:image" content='<%= image_tag(current_page.data.image) %>' >
+    <meta property="og:description" content='<%= current_page.data.description %>' >
+    <meta property="og:site_name" content='<%= current_page.data.title %>' >
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
