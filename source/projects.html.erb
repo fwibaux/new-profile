@@ -8,14 +8,34 @@ description: Frederic WIBAUX, A small view of my different projects, past, curre
   <div class="row text-center">
     <h2>Projects</h2>
   </div>
-  <div class="row">
-    <div class="left-align col-xs-12 col-md-8">
-        <% link_to "https://web.archive.org/web/20131021041244/http://www.re-shop.com/fr/",target: "_blank", class: "navbar-wagon-brand", id:"re-shop" do %>
-          <%= image_tag "Re-Shop.png" %>
-        <% end %>
+  <div class="row padded" id="parent1">
+    <div class="card left-align col-xs-12 col-md-4 col-md-offset-1" id="revalue2">
+      <p>B2B platform for obslete servers, PCs, laptops helping companies earning profit while recycling their IT equipment.</p>
     </div>
-    <div class="card right-align col-xs-12 col-md-4">
+    <div class="right-align col-xs-12 col-md-6" id="revalue">
+      <% link_to "http://revalueyourit.com/",target: "_blank", class: "navbar-wagon-brand" do %>
+        <%= image_tag "Revalue.png" %>
+      <% end %>
+    </div>
+  </div>
+  <div class="row padded" id="parent2">
+    <div class="left-align col-xs-12 col-md-6 col-md-offset-1">
+      <% link_to "https://web.archive.org/web/20131021041244/http://www.re-shop.com/fr/",target: "_blank", class: "navbar-wagon-brand", id:"re-shop" do %>
+        <%= image_tag "Re-Shop-small.png" %>
+      <% end %>
+    </div>
+    <div class="card right-align col-xs-12 col-md-4" id="re-shop2">
       <p>E-commerce platform of refurbished IT equipment specialised in spare parts and components : 3000 products advertised in 5 languages launched in May 2012</p>
+    </div>
+  </div>
+  <div class="row padded" id="parent3">
+    <div class="card right-align col-xs-12 col-md-4 col-md-offset-1" id="profile2">
+      <p>Profile resume coded during Le Wagon Bootcamp, very simple but efficient :-)</p>
+    </div>
+    <div class="left-align col-xs-12 col-md-6 ">
+      <% link_to "https://fwibaux.github.io/profile/",target: "_blank", class: "navbar-wagon-brand", id:"profile" do %>
+        <%= image_tag "profile.png" %>
+      <% end %>
     </div>
   </div>
 </div>

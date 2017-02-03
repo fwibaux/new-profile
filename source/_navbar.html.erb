@@ -2,16 +2,13 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <!-- Text link -->
-    <a href="https://fwibaux.github.io/new-profile/" class="navbar-wagon-item navbar-wagon-link">About me</a>
-
+    <%= link_to "About me", "/", class: "navbar-wagon-item navbar-wagon-link" %>
     <!-- Text link -->
-    <a href="https://fwibaux.github.io/new-profile/projects.html" class="navbar-wagon-item navbar-wagon-link">Projects</a>
-
+    <%= link_to "Projects", "/projects.html", class: "navbar-wagon-item navbar-wagon-link" %>
     <!-- Text link -->
-    <a href="https://fwibaux.github.io/new-profile/blog.html" class="navbar-wagon-item navbar-wagon-link">Blog</a>
-
+    <%= link_to "Blog", "/blog.html", class: "navbar-wagon-item navbar-wagon-link" %>
     <!-- Button (call-to-action) -->
-    <a href="mailto:fw@fredericwibaux.com?subject=Hello" class="navbar-wagon-item navbar-wagon-button btn">Contact me</a>
+    <%= link_to "Contact me", "mailto:fw@fredericwibaux.com?subject=Hello", class: "navbar-wagon-item navbar-wagon-button btn" %>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -19,10 +16,10 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="mailto:fw@fredericwibaux.com?subject=Hello" class="navbar-wagon-item navbar-wagon-button btn">Contact me</a></li>
+        <li class="text-center"><%= link_to "About me", "/" %></li>
+        <li class="text-center"><%= link_to "Projects", "/projects.html" %></li>
+        <li class="text-center"><%= link_to "Blog", "/blog.html" %></li>
+        <li class="text-center"><%= link_to "Contact me", "mailto:fw@fredericwibaux.com?subject=Hello", class: "navbar-wagon-item navbar-wagon-button btn" %></li>
       </ul>
     </div>
   </div>

@@ -1,9 +1,58 @@
 #re-shop {
-  width: 80%;
+  width: 40%;
 }
 
 @media only screen and (max-width: 500px) {
     img {
       width: 100%;
     }
+}
+
+#revalue {
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  #parent1{
+    display:flex;
+    flex-flow: column wrap;
+    margin-top: 25px;
+  }
+  #revalue {
+    order:1;
+  }
+  #revalue2 {
+    order:2;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #parent2{
+    display:flex;
+    flex-flow: column wrap;
+    margin-top: 25px;
+  }
+  #re-shop {
+    order:1;
+  }
+  #re-shop2 {
+    order:2;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #parent3{
+    display:flex;
+    flex-flow: column wrap;
+    margin-top: 25px;
+  }
+  #profile {
+    order:1;
+  }
+  #profile2 {
+    order:2;
+    padding: 20px;
+  }
 }
