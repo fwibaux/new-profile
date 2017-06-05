@@ -2,14 +2,14 @@
   width: 40%;
 }
 
+#revalue {
+  width: 58%;
+}
+
 @media only screen and (max-width: 500px) {
     img {
       width: 100%;
     }
-}
-
-#revalue {
-  width: 100%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -20,6 +20,7 @@
   }
   #revalue {
     order:1;
+    width:100%;
   }
   #revalue2 {
     order:2;
@@ -35,6 +36,7 @@
   }
   #re-shop {
     order:1;
+    width:100%;
   }
   #re-shop2 {
     order:2;
