@@ -1,0 +1,10 @@
+fr:
+  about:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quas molestias eaque obcaecati molestiae repudiandae dicta in laborum ipsam voluptatum iste doloribus, placeat earum ratione inventore nesciunt sunt architecto, odio!"
+
+  index: "Accueil"
+  blog: "Blog"
+  projects: "Projets"
+  path:
+    index: "/fr"
+    blog: "/fr/blog"
+    projects: "/fr/projects"
